@@ -16,8 +16,8 @@
 		// For v-model to work we need value and input.
     props: ['value'],
     methods: {
-    	switched(isOn) {
-        this.$emit('input', isOn)
+    	switched(bool) {
+        this.$emit('input', bool)
       }
     }
 		}
